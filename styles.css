@@ -22,30 +22,36 @@ body {
 .top-bar {
   background: #000;
   overflow: hidden;
+  white-space: nowrap;
 }
 
+/* TICKER */
 .ticker {
-  display: inline-block;
-  padding: 4px 0;
+  display: block;
+  width: 100%;
+  overflow: hidden;
 }
 
 .ticker span {
   display: inline-block;
+  white-space: nowrap;      /* 🔑 CLAVE */
   color: #fff;
-  font-size: 0.62rem;      /* tamaño real como el sitio */
-  letter-spacing: 0.16em;  /* tracking más fino */
+  font-size: 0.62rem;
+  letter-spacing: 0.16em;
   padding-left: 100%;
   animation: ticker-move 22s linear infinite;
 }
 
+/* ANIMACIÓN */
 @keyframes ticker-move {
-  from {
+  0% {
     transform: translateX(0);
   }
-  to {
+  100% {
     transform: translateX(-100%);
   }
 }
+
 
 /* HEADER */
 .site-header {
