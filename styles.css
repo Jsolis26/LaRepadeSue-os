@@ -96,19 +96,19 @@ body {
 .logo-group {
   display: flex;
   align-items: center;
-  gap: 16px;              /* espacio entre logos */
+  gap: 18px;              /* espacio entre logos */
 }
 
 /* LOGO LA REPA */
 .logo-repa {
-  height: 34px;
+  height: 40px;
   width: auto;
   display: block;
 }
 
 /* LOGO DORMA */
 .logo-dorma {
-  height: 28px;           /* un poco más chico, como el original */
+  height: 32px;           /* un poco más chico, como el original */
   width: auto;
   display: block;
 }
