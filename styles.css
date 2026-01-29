@@ -65,7 +65,7 @@ body {
   );
   border-radius: 40px;
   margin: 16px;
-  padding: 8px 32px;   /* 🔑 menos alto */
+  padding: 12px 32px;   /* 🔑 menos alto */
 }
 
 .header-inner {
