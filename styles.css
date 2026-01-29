@@ -94,3 +94,33 @@ ul li{margin-bottom:12px}
   border-radius:6px;
   margin-top:96px;
 }
+
+/* TOP BAR TICKER */
+.top-bar {
+  background: #000;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.ticker {
+  display: inline-block;
+  padding: 6px 0;
+}
+
+.ticker span {
+  display: inline-block;
+  color: #fff;
+  font-size: 0.75rem;
+  letter-spacing: 0.25em;
+  padding-left: 100%;
+  animation: ticker-move 18s linear infinite;
+}
+
+@keyframes ticker-move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
