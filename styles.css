@@ -129,3 +129,36 @@ ul li{margin-bottom:12px}
   animation-play-state: paused;
 }
 
+/* CIERRE SUAVE / CONTACTO */
+.contact-close {
+  background: #f7f7f7;
+  margin-top: 120px;
+  padding: 72px 48px;
+  border-radius: 12px;
+}
+
+.contact-close h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.contact-close ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-close li {
+  font-size: 1rem;
+  margin-bottom: 14px;
+  color: #111;
+}
+
+.contact-close a {
+  color: #0a8c8f;
+  text-decoration: none;
+}
+
+.contact-close a:hover {
+  text-decoration: underline;
+}
