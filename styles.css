@@ -239,3 +239,39 @@ ul li {
     gap: 8px;
   }
 }
+
+/* META POST */
+.post-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.post-author-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.post-meta-text {
+  font-size: 0.85rem;
+  color: #111;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.post-author {
+  font-weight: 500;
+}
+
+.post-separator {
+  opacity: 0.4;
+}
+
+.post-date,
+.post-reading {
+  opacity: 0.8;
+}
