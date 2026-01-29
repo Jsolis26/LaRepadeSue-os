@@ -21,28 +21,29 @@ body {
 /* TOP BAR */
 .top-bar {
   background: #000;
+  height: 38px;                 /* más gruesa */
   overflow: hidden;
-  white-space: nowrap;
+  display: flex;
+  align-items: center;
 }
 
 /* TICKER */
 .ticker {
-  display: block;
   width: 100%;
   overflow: hidden;
 }
 
 .ticker span {
   display: inline-block;
-  white-space: nowrap;      /* 🔑 CLAVE */
+  white-space: nowrap;
   color: #fff;
-  font-size: 0.75rem;
+  font-size: 0.62rem;
   letter-spacing: 0.18em;
   padding-left: 100%;
   animation: ticker-move 30s linear infinite;
 }
 
-/* ANIMACIÓN */
+/* Animación continua */
 @keyframes ticker-move {
   0% {
     transform: translateX(0);
@@ -51,6 +52,7 @@ body {
     transform: translateX(-100%);
   }
 }
+
 
 
 /* HEADER */
