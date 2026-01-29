@@ -26,17 +26,18 @@ body {
 
 .ticker {
   display: inline-block;
-  padding: 6px 0;
+  padding: 4px 0;
 }
 
 .ticker span {
   display: inline-block;
   color: #fff;
-  font-size: 0.75rem;
-  letter-spacing: 0.25em;
+  font-size: 0.65rem;          /* más pequeño */
+  letter-spacing: 0.18em;      /* menos aire entre letras */
   padding-left: 100%;
-  animation: ticker-move 20s linear infinite;
+  animation: ticker-move 22s linear infinite;
 }
+
 
 @keyframes ticker-move {
   from {
@@ -159,4 +160,11 @@ ul li {
 
 .intro p {
   margin-bottom: 16px;
+}
+
+@media (max-width: 600px) {
+  .ticker span {
+    font-size: 0.6rem;
+    letter-spacing: 0.15em;
+  }
 }
