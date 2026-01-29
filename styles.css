@@ -314,3 +314,11 @@ ul li {
 .post-reading {
   opacity: 0.8;
 }
+
+/* IMAGEN PORTADA / HERO */
+.post-hero {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  margin: 32px 0 56px;
+}
