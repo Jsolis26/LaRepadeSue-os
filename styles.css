@@ -1,79 +1,96 @@
-<style>
-  :root {
-    --text-main: #111111;
-    --text-muted: #6b6b6b;
-    --bg-soft: #fafafa;
-    --max-width: 720px;
-  }
+:root {
+  --text-main:#111;
+  --text-muted:#6b6b6b;
+  --brand:#0a8c8f;
+  --bg-soft:#fafafa;
+  --max-width:720px;
+}
 
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+*{box-sizing:border-box;margin:0;padding:0}
 
-  body {
-    font-family: 'Inter', sans-serif;
-    background: #ffffff;
-    color: var(--text-main);
-    line-height: 1.7;
-  }
+body{
+  font-family:'Inter',sans-serif;
+  line-height:1.7;
+  color:var(--text-main);
+}
 
-  article {
-    max-width: var(--max-width);
-    margin: 96px auto;
-    padding: 0 24px;
-  }
+/* TOP BAR */
+.top-bar{
+  background:#000;
+  color:#fff;
+  text-align:center;
+  font-size:.75rem;
+  letter-spacing:.2em;
+  padding:6px 0;
+}
 
-  h1 {
-    font-size: 2.3rem;
-    font-weight: 500;
-    line-height: 1.25;
-    margin-bottom: 56px;
-  }
+/* HEADER */
+.site-header{
+  background:linear-gradient(180deg,#0e6f78,#0a8c8f);
+  border-radius:40px;
+  margin:16px;
+  padding:14px 32px;
+}
 
-  .intro p {
-    font-size: 1.05rem;
-    color: var(--text-muted);
-    margin-bottom: 18px;
-  }
+.header-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
 
-  h2 {
-    font-size: 1.45rem;
-    font-weight: 500;
-    margin: 88px 0 24px;
-  }
+.logo{
+  color:#fff;
+  font-weight:500;
+}
 
-  p {
-    font-size: 1rem;
-    margin-bottom: 20px;
-  }
+.main-nav a{
+  color:#fff;
+  margin:0 14px;
+  text-decoration:none;
+  font-size:.85rem;
+}
 
-  ul {
-    list-style: none;
-    margin: 28px 0 28px;
-    padding-left: 0;
-  }
+.header-actions{
+  color:#fff;
+  font-size:.85rem;
+}
 
-  ul li {
-    font-size: 1rem;
-    margin-bottom: 12px;
-  }
+/* BLOG */
+article{
+  max-width:var(--max-width);
+  margin:96px auto;
+  padding:0 24px;
+}
 
-  .brand {
-    background: var(--bg-soft);
-    padding: 56px;
-    border-radius: 6px;
-    margin-top: 96px;
-  }
+h1{
+  font-size:2.3rem;
+  font-weight:500;
+  margin-bottom:48px;
+}
 
-  @media (max-width: 600px) {
-    article {
-      margin: 72px auto;
-    }
+.intro p{
+  color:var(--text-muted);
+  margin-bottom:18px;
+}
 
-    h1 {
-      font-size: 1.9rem;
-    }
-  }
-</style>
+h2{
+  font-size:1.45rem;
+  font-weight:500;
+  margin:72px 0 20px;
+}
+
+p{margin-bottom:18px}
+
+ul{
+  list-style:none;
+  margin:24px 0;
+}
+
+ul li{margin-bottom:12px}
+
+.brand{
+  background:var(--bg-soft);
+  padding:48px;
+  border-radius:6px;
+  margin-top:96px;
+}
