@@ -32,12 +32,11 @@ body {
 .ticker span {
   display: inline-block;
   color: #fff;
-  font-size: 0.65rem;          /* más pequeño */
-  letter-spacing: 0.18em;      /* menos aire entre letras */
+  font-size: 0.62rem;      /* tamaño real como el sitio */
+  letter-spacing: 0.16em;  /* tracking más fino */
   padding-left: 100%;
   animation: ticker-move 22s linear infinite;
 }
-
 
 @keyframes ticker-move {
   from {
