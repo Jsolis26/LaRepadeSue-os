@@ -87,6 +87,28 @@ body {
   font-size: 0.85rem;
 }
 
+/* GRUPO DE LOGOS HEADER */
+.logo-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;              /* espacio entre logos */
+}
+
+/* LOGO LA REPA */
+.logo-repa {
+  height: 34px;
+  width: auto;
+  display: block;
+}
+
+/* LOGO DORMA */
+.logo-dorma {
+  height: 28px;           /* un poco más chico, como el original */
+  width: auto;
+  display: block;
+}
+
+
 /* BLOG */
 article {
   max-width: var(--max-width);
