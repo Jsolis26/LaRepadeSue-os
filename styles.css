@@ -113,7 +113,7 @@ ul li{margin-bottom:12px}
   font-size: 0.75rem;
   letter-spacing: 0.25em;
   padding-left: 100%;
-  animation: ticker-move 18s linear infinite;
+  animation: ticker-move 25s linear infinite;
 }
 
 @keyframes ticker-move {
@@ -124,3 +124,8 @@ ul li{margin-bottom:12px}
     transform: translateX(-100%);
   }
 }
+
+.top-bar:hover span {
+  animation-play-state: paused;
+}
+
