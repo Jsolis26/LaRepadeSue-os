@@ -233,11 +233,20 @@ ul li {
   text-decoration: none;
 }
 
-.footer-logo {
-  height: 32px;
-  display: block;
-  margin-bottom: 16px;
+/* LOGOS EN FOOTER */
+.footer-logos {
+  display: flex;
+  align-items: center;
+  gap: 20px;              /* espacio entre logos */
+  margin-bottom: 24px;
 }
+
+.footer-logos img {
+  height: 42px;           /* 🔑 más grandes que en el header */
+  width: auto;
+  display: block;
+}
+
 
 .footer-btn {
   display: inline-block;
