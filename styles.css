@@ -325,6 +325,6 @@ ul li {
 
 /* AJUSTE: h2 justo después de la portada */
 .post-hero + h2 {
-  margin-top: 16px; /* 🔑 corta el hueco grande */
+  margin-top: 8px; /* 🔑 corta el hueco grande */
 }
 
