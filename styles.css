@@ -107,7 +107,7 @@ h2 {
 
 p {
   font-size: 1rem;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
 }
 
 ul {
@@ -155,4 +155,8 @@ ul li {
   h1 {
     font-size: 1.9rem;
   }
+}
+
+.intro p {
+  margin-bottom: 16px;
 }
